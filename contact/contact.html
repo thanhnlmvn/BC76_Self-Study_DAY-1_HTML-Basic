@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- => DOCTYPE html khai báo phiên bản HTML (ver 5) -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <!-- => Trước dấu = là thuộc tính , sau dấu bằng là giá trị của thuộc tính  -->
+    <!-- => Meta UTF-8 Giúp trang web sử dụng được các ngôn ngữ có dấu  -->
+    <meta name="description" content="Demo HTML" />
+    <!-- => Meta description giúp mô tả trang web hỗ trợ cho google,... có thể tìm kiếm trang web -->
+    <!-- => SEO: hỗ trợ cho các công cụ tìm kiếm   -->
+    <title>Demo HTML</title>
+    <!-- => title hiển thị tên trên tag để cho người dùng biết  -->
+  </head>
+  <body>
+    <!-- Đường dẫn tuyệt đối là một đường dẫn hoàn chỉnh, chỉ rõ địa chỉ đầy đủ của một tài nguyên (hình ảnh, tệp, trang web, v.v.) từ gốc (root). Nó không phụ thuộc vào vị trí của tài liệu HTML đang được gọi. -->
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7njt91TOzwjrf0dCeFfhoHWC86NXwDIYDlg&s"
+      alt=""
+    />
+
+    <!-- Đường dẫn tương đối chỉ định vị trí của tài nguyên (tệp, hình ảnh, trang web, v.v.) so với tài liệu HTML hiện tại. Đường dẫn này không chứa thông tin đầy đủ như giao thức hay tên miền và phụ thuộc vào cấu trúc thư mục nơi tệp HTML đang nằm. -->
+    <img style="height: 500px; width: 500px" src="./../img/cv" alt="cv" />
+  </body>
+</html>
